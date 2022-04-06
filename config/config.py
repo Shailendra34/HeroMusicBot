@@ -30,7 +30,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Shailendra34/HeroMusicBot",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/HeroOfficialBots"
@@ -70,10 +70,10 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 # Telegram audio  and video file size limit
 TG_AUDIO_FILESIZE_LIMIT = int(
-    getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600")
+    getenv("TG_AUDIO_FILESIZE_LIMIT", "9437184000")
 )  # Remember to give value in bytes
 TG_VIDEO_FILESIZE_LIMIT = int(
-    getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
+    getenv("TG_VIDEO_FILESIZE_LIMIT", "9437184000")
 )  # Remember to give value in bytes
 # Chceckout https://www.gbmb.org/mb-to-bytes  for converting mb to bytes
 
