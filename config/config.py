@@ -40,11 +40,11 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/Yaaro_ki_yaarii
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", None)
+    getenv("ASSISTANT_LEAVE_TIME", "5400")
 )  # Remember to give value in Seconds
 
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", None)
+    getenv("AUTO_SUGGESTION_TIME", "5400")
 )  # Remember to give value in Seconds
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
