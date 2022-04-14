@@ -11,7 +11,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Mukesh01:chuprah@cluster0.dz9iv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "9000")
 )  # Remember to give value in Minutes
